@@ -2,7 +2,7 @@ name: 台股大盤每日推播
 
 on:
   schedule:
-    - cron: "35 5 * * 1-5"
+    - cron: "30 7 * * 1-5"
   workflow_dispatch:
 
 jobs:
