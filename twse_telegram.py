@@ -6,7 +6,7 @@
 
 import os
 import json
-import urllib.request
+import urllib.requesth
 import urllib.parse
 from datetime import datetime
 
@@ -45,7 +45,7 @@ def format_message(d: dict) -> str:
 
     taiex = d.get("TAIEX", "N/A")
     change = d.get("Change", "0")
-    trading_value = d.get("TradingValue", "0")
+    trading_value = d.get("TradeValue", "0")
 
     # 成交金額：單位億元
     try:
