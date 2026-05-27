@@ -6,7 +6,7 @@
 
 import os
 import json
-import urllib.requesth
+import urllib.request
 import urllib.parse
 from datetime import datetime
 
